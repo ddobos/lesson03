@@ -7,7 +7,7 @@ def inputValue():
         try:
             a = int(input())
             if a < 0:
-                print('Error input a number, \n number was by positive')
+                print('Error input a number, \n number must be positive')
             else:
                 return a
         except ValueError:
