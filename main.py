@@ -33,3 +33,20 @@ secondValue = inputValue()
 
 print('multiply result is: {}'.format(multiple(firstValue, secondValue)))
 print('divide result is: {}'.format(divide(firstValue, secondValue)))
+
+def sum(firstValue, secondValue):
+    return firstValue + secondValue
+
+
+def diff(firstValue, secondValue):
+    return firstValue - secondValue
+
+
+print('Pleas input first value')
+firstValue = inputValue()
+
+print('Pleas input Second value')
+secondValue = inputValue()
+
+print('sum value: {}'.format(sum(firstValue, secondValue)))
+print('difference value: {}'.format(diff(firstValue, secondValue)))
