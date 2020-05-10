@@ -34,6 +34,7 @@ secondValue = inputValue()
 print('multiply result is: {}'.format(multiple(firstValue, secondValue)))
 print('divide result is: {}'.format(divide(firstValue, secondValue)))
 
+
 def sum(firstValue, secondValue):
     return firstValue + secondValue
 
